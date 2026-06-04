@@ -1,14 +1,14 @@
 # Indian-Currency-Recognizer
 ## Overview
 This project trains a ML model to recognise Indian Currency notes. There are 6 denominations of Indian Currency notes as of now(2026). They are as follows:
-
-Rs. 10
-Rs. 20
-Rs. 50
-Rs. 100
-Rs. 200
-Rs. 500
-Rs. 2000 notes, though not currently produced, is still under circulation. So images with 2000 rupee notes are also considered.
+1. Rs. 10
+2. Rs. 20
+3. Rs. 50
+4. Rs. 100
+5. Rs. 200
+6. Rs. 500
+7. Rs. 2000 notes, though not currently produced, is still under circulation. So images with 2000 rupee notes are also considered.
+<br>Background images without currency were also used for training.
 ## Dataset
 Source: https://www.kaggle.com/datasets/vishalmane109/indian-currency-note-images-dataset-2020/data?status=pending
 ## Result
