@@ -11,7 +11,12 @@ This project trains a ML model to recognise Indian Currency notes. There are 6 d
 <br>Background images without currency were also used for training.
 ## Dataset
 Source: https://www.kaggle.com/datasets/vishalmane109/indian-currency-note-images-dataset-2020/data?status=pending
-## Result
+## Training
 Two approaches were used:
 1. A CNN was build from scratch and trained. The accuracy of the model on test data  was ~66%
-2. Transfer Learning - A pretrained ResNet50 model with a classifier head was used along with data augmentation for training. The accuracy of the model on test data increased to ~85%.
+2. Transfer Learning - A pretrained ResNet50 model with a classifier head was used along with data augmentation for training. The accuracy of the model on test data increased to ~85%.<br>
+## Result - Example
+Input: <br>
+<img width="390" height="280" alt="100_15" src="https://github.com/user-attachments/assets/4ce9e157-bfbe-4f84-82f6-324757e276af" />
+<br> Output Prediction: 100
+
