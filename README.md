@@ -11,6 +11,7 @@ This project trains a ML model to recognise Indian Currency notes. There are 6 d
 <br>Background images without currency were also used for training.
 ## Dataset
 Source: https://www.kaggle.com/datasets/vishalmane109/indian-currency-note-images-dataset-2020/data?status=pending
+<br>This dataset is divided into 3 directories Train, Test, Validation. Train and Validation folders contain subfolders with images for each denomination and background images. Test folder contain images with and without currencies. Total number of images are 4002. 
 ## Training
 Two approaches were used:
 1. A CNN was build from scratch and trained. The accuracy of the model on test data  was ~66%
